@@ -16,6 +16,7 @@ body {
 	background-blend-mode: luminosity;
 	background-size:cover;
 	background-position:center;
+	background-repeat: no-repeat;
 	width: 100%;
 	height: auto;
 	padding: 20px;
@@ -100,7 +101,7 @@ p a:hover {
 	}
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.my-icons {
 		display: flex;
 		justify-content: space-between;
@@ -119,7 +120,7 @@ p a:hover {
 	}
 }
 
-@media (max-width: 575px) {
+@media screen and (max-width: 575px) {
 	.my-icons {
 		margin-top: 12px;
 	}
