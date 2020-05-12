@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background-image:
+	radial-gradient(rgba(106, 9, 102, 0.8), rgba(70, 6, 67, 1)),
+	url('bg.jpg');
+	background-blend-mode: luminosity;
+	background-size:cover;
+	background-position:center;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+}
+
+.btn-contact {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #FEC901;
+	border: 2px solid #FEC901;
+	border-radius: 8px;
+	padding: 10px 12px;
+	background-color: transparent;
+}
+
+.btn-contact:hover {
+	color: #232323;
+	background-color: #FEC901;
+}
+
+.my-icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.my-paragraph {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 36px;
+}
+
+.my-container {
+	min-width: 70%;
+	margin-top: 200px;
+	color: #FEC901;
+}
+
+div h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 50px;
+}
+
+.my-container p {
+	margin-bottom: 10px;
+}
+
+.bottom-ul {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+	margin-top: 300px;
+}
+
+p a {
+	text-decoration: none;
+	color: #FEC901;
+	font-weight: 400;
+}
+
+p a:hover {
+	color: #2C2C2C;
+	background-color: #FEC901;
+	text-decoration: none;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+	.my-icons {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.my-container {
+		min-width: 100%;
+		margin-top: 100px;
+		color: #FEC901;
+	}
+}
+
+@media (max-width: 767px) {
+	.my-icons {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.my-container {
+		min-width: 100%;
+		margin-top: 88px;
+		color: #FEC901;
+	}
+
+	.bottom-ul {
+		display: block;
+		margin-top: 72px;
+	}
+}
+
+@media (max-width: 575px) {
+	.my-icons {
+		margin-top: 12px;
+	}
+}
